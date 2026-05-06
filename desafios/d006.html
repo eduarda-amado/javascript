@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de temperaturas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        button {
+            padding: 22px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Conversor de Temperaturas</h1>
+    <button onclick="clicar()">Converter</button>
+    <h2 id="medidas"></h2>
+    <p id="conversao">Clique no botão acima para iniciar.</p>
+
+    <script>
+        function clicar() {
+            let c = Number(window.prompt('Digite uma temperatura em ºC (Celcius)'))
+
+            let k = c + 273.15
+            let f = (c * 1.8) + 32
+
+            document.getElementById('medidas').innerText = `A temperatura de ${c}, corresponde a...`
+
+            document.getElementById('conversao').innerHTML = `${k.toFixed(2)}ºK (Kelvin) <br>
+            ${f.toFixed(2)}ºF (Fahrenheit)`
+        }
+    </script>
+</body>
+</html>
