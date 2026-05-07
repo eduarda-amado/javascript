@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reajuste salário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        button { 
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Reajuste salarial</h1>
+    <button onclick="clicar()">Reajustar salário</button>
+    <p id="novaR">Clique no botão acima para inicar.</p>
+
+    <script>
+        function clicar() {
+            let n = window.prompt('Qual é o nome do funcionário?')
+            let s = Number(window.prompt(`Qual é o salário do ${n}?`))
+            let r = Number(window.prompt(`O salário de ${n} vai ser reasjutado em qual porcentagem?`))
+
+            let p = r / 100
+            let d = s * p
+            let rj = s + d
+
+            document.getElementById('novaR').innerHTML = `<h2> ${n} recebeu um aumento salarial!</h2> <br> 
+            <p>O salário atual era R$${s.toFixed(2)}. <br>
+
+            Com um aumento de ${r.toFixed(2)}%, o salário vai aumentar R$${d.toFixed(2)} no próximo mês. <br>
+
+            E a partir daí, ${n} vai passar a ganhar R$${rj.toFixed(2)}.</p>`
+
+        }
+    </script>
+</body>
+</html>
