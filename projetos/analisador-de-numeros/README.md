@@ -1,6 +1,7 @@
 # 📊 Analisador de Números
 
 Projeto desenvolvido com JavaScript que permite cadastrar números entre 1 e 100 e realizar análises automáticas sobre os valores informados.
+[Clique aqui](https://eduarda-amado.github.io/javascript/projetos/analisador-de-numeros/modelo)
 
 ---
 
