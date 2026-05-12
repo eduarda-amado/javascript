@@ -54,14 +54,14 @@ Ao executar, a sequência é exibida com emojis acompanhando a contagem.
 ---
 
 ### ✖️ Tabuada
-[Ver projeto](./tabuada)
+[[Tabuada](https://eduarda-amado.github.io/javascript/projetos/tabuada/modelo)]
 
 Gerador de tabuada onde o usuário informa um número e o sistema exibe automaticamente toda a tabuada correspondente.
 
 ---
 
 ### 🎂 Verificador de Idade
-[https://eduarda-amado.github.io/javascript/projetos/verificador-de-idade/modelo](./verificador-de-idade)
+[https://eduarda-amado.github.io/javascript/projetos/verificador-de-idade/modelo]
 
 Sistema que calcula a idade do usuário com base no ano de nascimento e sexo selecionado.
 
