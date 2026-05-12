@@ -7,7 +7,7 @@ Repositório com projetos desenvolvidos durante meus estudos de JavaScript no Cu
 ## Projetos
 
 ### 📊 Analisador de Números
-[Ver projeto](./analisador-de-numeros)
+[Link GitHub Pages](https://eduarda-amado.github.io/javascript/projetos/analisador-de-numeros/modelo)
 
 Sistema que permite adicionar números entre 1 e 100 e exibe:
 - quantidade de números cadastrados;
@@ -18,7 +18,7 @@ Sistema que permite adicionar números entre 1 e 100 e exibe:
 ---
 
 ### 🔢 Contador Inteligente
-[Ver projeto](./contador-inteligente)
+[Link GitHub Pages](https://eduarda-amado.github.io/javascript/projetos/contador-inteligente/index)
 
 Contador interativo com botões de incremento, decremento e reset.  
 Os números mudam de cor:
@@ -30,7 +30,7 @@ O projeto também utiliza LocalStorage para salvar o valor mesmo após atualizar
 ---
 
 ### 🌤️ Hora do Dia
-[Ver projeto](./hora-do-dia)
+[Link GitHub Pages](https://eduarda-amado.github.io/javascript/projetos/hora-do-dia/modelo)
 
 Site que identifica o horário do sistema e altera dinamicamente:
 - mensagem exibida;
@@ -42,7 +42,7 @@ As mudanças acontecem conforme manhã, tarde e noite.
 ---
 
 ### 🚀 Super Contador
-[Ver projeto](./super-contador)
+[Link GitHub Pages](https://eduarda-amado.github.io/javascript/projetos/super-contador/modelo)
 
 Sistema de contagem personalizada onde o usuário informa:
 - número inicial;
@@ -54,14 +54,14 @@ Ao executar, a sequência é exibida com emojis acompanhando a contagem.
 ---
 
 ### ✖️ Tabuada
-[[Tabuada](https://eduarda-amado.github.io/javascript/projetos/tabuada/modelo)]
+[Link GitHub Pages](https://eduarda-amado.github.io/javascript/projetos/tabuada/modelo)
 
 Gerador de tabuada onde o usuário informa um número e o sistema exibe automaticamente toda a tabuada correspondente.
 
 ---
 
 ### 🎂 Verificador de Idade
-[https://eduarda-amado.github.io/javascript/projetos/verificador-de-idade/modelo]
+[Link GitHub Pages](https://eduarda-amado.github.io/javascript/projetos/verificador-de-idade/modelo)
 
 Sistema que calcula a idade do usuário com base no ano de nascimento e sexo selecionado.
 
