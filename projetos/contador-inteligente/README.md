@@ -4,6 +4,7 @@ Projeto de contador interativo desenvolvido com JavaScript.
 
 O sistema permite incrementar, decrementar e resetar valores dinamicamente.
 Além disso, o contador altera automaticamente a cor dos números conforme o valor exibido.
+[Clique aqui](https://eduarda-amado.github.io/javascript/projetos/contador-inteligente/index)
 
 ---
 
